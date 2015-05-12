@@ -28,10 +28,12 @@ you will use these notification type into your message.
 default notification type is set to error.
 
 Example: 
-setWpNotification('this is test error message', 'error');
-setWpNotification('this is test warning message', 'warning');
-setWpNotification('this is test success message', 'success');
-setWpNotification('this is test info message', 'info');
+setWpNotification('this is test error message', 'error');<br>
+setWpNotification('this is test warning message', 'warning');<br>
+setWpNotification('this is test success message', 'success');<br>
+setWpNotification('this is test info message', 'info');<br>
+
+http://www.indianrailhub.com/
 
 
 
