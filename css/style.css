@@ -1,0 +1,46 @@
+#wp-notfication_wraper{
+	  position: fixed;
+	  border: 0px solid;
+	  bottom: 10px;
+	  right: 0px;
+	  margin-right: 10px;
+	  padding: 5px;
+	  width: 25%;
+}
+.wp_notification{
+	display:none;
+	margin-top:5px;
+	padding:5px 10px 20px 10px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #888888;
+	text-align: justify;
+}
+.notification_error{
+	border:2px solid red;
+	background-color:antiquewhite;
+}
+.notification_warning{
+	border:2px solid #9F6000;
+	color: #9F6000;
+	background-color: #FEEFB3;
+}
+.notification_success{
+	border:2px solid #4F8A10;
+	color: #4F8A10;
+	background-color: #DFF2BF;
+}
+.notification_info{
+	color: #00529B;
+	border:2px solid #00529B;
+	background-color:#BDE5F8;
+	
+}
+.close_notification{
+	float: right;
+  cursor: pointer;
+  padding: 3px;
+  border-radius: 9px;
+  box-shadow: 5px 5px 5px #888888;
+  border: 1px solid #888888;
+  margin-botton:2px;
+}
