@@ -14,7 +14,7 @@ add_action('admin_menu', 'wp_floating_notification_menu');
 function wp_floating_notification_menu() {
 
 	//create new top-level menu
-	add_menu_page('Wp Floating Notification', 'Wp Floating Notification', 'administrator', __FILE__, 'wp_floating_notification_settings_page');
+	//add_menu_page('Wp Floating Notification', 'Wp Floating Notification', 'administrator', __FILE__, 'wp_floating_notification_settings_page');
 	
 }
 
